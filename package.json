@@ -1,0 +1,34 @@
+{
+  "name": "flokinft",
+  "version": "1.0.0",
+  "description": "rarity random NFT mint contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "ipfs-http-client": "^55.0.0",
+    "path": "^0.12.7",
+    "solidity-coverage": "^0.7.17",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ganache": "ganache-cli -m \"tragic cream marine else chicken trouble machine scrub push lift faith must\"",
+    "test": "truffle run coverage --solcoverjs ./.solcover.js --file=\"./test/test-coverage.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crypto-wolf-1203/FlokiNFT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crypto-wolf-1203/FlokiNFT/issues"
+  },
+  "homepage": "https://github.com/crypto-wolf-1203/FlokiNFT#readme"
+}
